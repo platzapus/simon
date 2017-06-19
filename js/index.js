@@ -5,7 +5,7 @@ $(document).ready(function(){
   var blueSound = document.getElementById('aud4');
   var temp = [];
   var pattern = [];
-  var step = 19;
+  var step = 1;
   var userStep = 0;
   var count = 0;
   var countj = 0;
