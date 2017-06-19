@@ -1,0 +1,131 @@
+body{
+  font-family: 'Permanent Marker', cursive;
+  background: black;
+  border-radius: 4px;
+  border-top: 2px solid green;
+  border-left: 2px solid yellow;
+  border-right: 2px solid red;
+  border-bottom: 2px solid blue;
+  margin: 2px;
+}
+
+#simon{
+  margin-right: 50px;
+}
+#flexSimon{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap:wrap;
+  background-color: #000;
+  width: 640px;
+  margin-top: -95px;
+  
+}
+.colorBox {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  background-color: black;
+}
+
+#green{
+  border-top-left-radius: 1000px;
+  border-left-radius: 100px;
+}
+#red{
+  border-top-right-radius: 1000px;
+}
+#yellow{
+  border-bottom-left-radius: 1000px;
+}
+#blue{
+  border-bottom-right-radius: 1000px;
+}
+#center{
+  position: relative;
+  margin: 0 auto;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  top: 275px;
+  border-radius: 50%;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+}
+.green1{
+  background-color: #070;
+
+}
+.red1{
+  background-color:#912;
+
+}
+.yellow1{
+  background-color:rgb(189, 187, 0);
+}
+.blue1{
+  background-color:#128;
+  
+}
+.green2{
+  background-color: #0d0;
+  border-top-left-radius: 1000px;
+  border-left-radius: 100px;
+}
+.red2{
+  background-color:red;
+  border-top-right-radius: 1000px;
+}
+.yellow2{
+  background-color:yellow;
+  border-bottom-left-radius: 1000px;
+}
+.blue2{
+  background-color:blue;
+  border-bottom-right-radius: 1000px;
+}
+#gameBox{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+#controls{
+  width: 300px;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 4px;
+  border-top: 2px solid green;
+  border-left: 2px solid yellow;
+  border-right: 2px solid red;
+  border-bottom: 2px solid blue;
+}
+#title{
+  margin-top: 10px;
+  font-size: 1.8em;
+  color: white;
+}
+.strictOff{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+button{
+  margin: 15px 0 0 0;
+  font-family: 'Permanent Marker', cursive;
+}
+#buttonBox{
+  margin: 5px 0 0 0;
+}
+
+.unclickable{
+  pointer-events: none;
+}
+#start{
+}
+p{
+  margin-top: 20px;
+}

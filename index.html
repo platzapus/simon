@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Who is Simon</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <audio
+  src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" id="aud1"></audio>
+  <audio
+  src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" id="aud2"></audio>
+  <audio
+  src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" id="aud3"></audio>
+  <audio
+  src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" id="aud4"></audio>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+</head>
+<body>
+  <div id='gameBox'>
+    <div id='simon'>
+      <div id='center'></div>
+      <div id='flexSimon'>
+        <div class='colorBox green1' id='green'></div>
+        <div class='colorBox red1' id='red'></div>
+        <div class='colorBox yellow1' id='yellow'></div>
+        <div class='colorBox blue1' id='blue'></div>
+      </div>
+    </div>
+    <div id='controls'>
+      <div id='title'>Simon 3000:<br> Electric Beepaloo</div>
+      <div id='buttonBox'>
+        <button class='btn-lg' id='reset'>Reset</button><br>
+        <button class='btn-lg strictOff' id='strict'>Strict Mode: Off!</button><br>
+        <button class='btn-lg' id='start'>Start</button>
+      </div>
+      <p style='color:white'>Instructions:<br>
+        Repeat the pattern played to move to the next stage. Complete twenty stages and you win!<br><br>
+        Strict Mode means one mistake and you're back to Stage One!<br><br>
+        Press Start to begin.
+    </div>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
